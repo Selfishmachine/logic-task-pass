@@ -1,10 +1,14 @@
-count = 0
+def chrcounter():
 
-my_string = input("Enter the sentence:")
-my_char = input("the letter you want to count:")
+    count = 0
 
-for i in my_string:
-    if i == my_char:
-        count += 1
+    my_string = input("Enter the sentence:")
+    my_char = input("the letter you want to count:")
 
-print(count)
+    for i in my_string:
+       if i == my_char:
+          count += 1
+
+    print(count)
+    
+chrcounter()
